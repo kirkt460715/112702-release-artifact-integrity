@@ -1,0 +1,17 @@
+[
+  {
+    "id": "seen-a",
+    "unit": "second-a",
+    "registered_bundle": "combo-2",
+    "actual_items": [
+      "app2"
+    ],
+    "state": "partial"
+  },
+  {
+    "id": "seen-b",
+    "unit": "second-b",
+    "registered_bundle": "combo-1",
+    "state": "installed"
+  }
+]

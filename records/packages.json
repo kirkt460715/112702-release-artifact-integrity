@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bundle-2",
+    "digest": "combo-2",
+    "items": {
+      "app": "app2",
+      "migration": "mig1",
+      "catalogue": "cat2"
+    },
+    "must_pair": [
+      "app",
+      "migration"
+    ],
+    "signed_scope": [
+      "app",
+      "catalogue"
+    ]
+  },
+  {
+    "id": "proof-m",
+    "item": "mig2",
+    "issuer": "cooperative",
+    "state": "valid",
+    "bound_bundle": "combo-2"
+  },
+  {
+    "id": "old-bundle",
+    "digest": "combo-1",
+    "items": {
+      "app": "app1",
+      "migration": "mig1"
+    },
+    "signed_scope": [
+      "app",
+      "migration"
+    ]
+  }
+]

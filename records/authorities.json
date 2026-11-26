@@ -1,0 +1,29 @@
+[
+  {
+    "id": "release-P",
+    "issuer": "vendor",
+    "scopes": [
+      "app",
+      "catalogue"
+    ],
+    "groups": [
+      "second"
+    ]
+  },
+  {
+    "id": "approval-m",
+    "issuer": "cooperative",
+    "scopes": [
+      "migration"
+    ],
+    "groups": [
+      "second"
+    ]
+  },
+  {
+    "id": "withdraw-1",
+    "digest": "combo-1",
+    "state": "revoked",
+    "day": 10
+  }
+]
